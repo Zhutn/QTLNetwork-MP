@@ -51,7 +51,7 @@ chmod 755 QTXNetwork
 
 ```
 ./QTXNetwork --map ./example/SimF2.map --txt ./example/SimF2.txt --out SimF2.pre
-./QTXNetwork --map ./example/Sim_fourway_1.map --txt ./example/Sim_fourway_1.txt --out sorghum.pre
+./QTXNetwork --map ./example/Sim_fourway_1.map --txt ./example/Sim_fourway_1.txt --out Sim_fourway_1.pre
 
 ```
 ```
