@@ -8,8 +8,7 @@ These instructions will get you a copy of the project up and running on your loc
 Please cite our manuscript if you use our software.
 
 ```
-Tianneng Zhu (2025) QTLNetowrk-MP: An Epistatic Mapping Method of Complex Traits in Multiparent Advanced Generation Intercross (MAGIC) Populations
-.
+Tianneng Zhu (2025) QTLNetowrk-MP: An Epistatic Mapping Method of Complex Traits in Multiparent Advanced Generation Intercross (MAGIC) Populations.
 ```
 
 ## Built With
@@ -25,9 +24,9 @@ make
 Installing QTLNetwork-MP is fairly simple. Just issue the following commands on a Linux machine
 
 ```
-git clone https://github.com/Zhutn/QTXNetwork4.0.git
-cd QTXNetwork4.0
-cd build
+git clone git@github.com:Zhutn/QTLNetwork-MP.git
+cd QTLNetwork-MP
+chmod 755 QTXNetwork
 ```
 
 ### Run with example data
@@ -51,8 +50,8 @@ cd build
 **Examples for QTLNetwork-MP**
 
 ```
-./QTXNetwork --map ../example/SimF2.map --txt ../example/SimF2.txt --QTX 0 --out SimF2.pre
-./QTXNetwork --map ../example/Sim_fourway_1.map --txt ../example/Sim_fourway_1.txt --QTX 0 --out sorghum.pre
+./QTXNetwork --map ./example/SimF2.map --txt ./example/SimF2.txt --out SimF2.pre
+./QTXNetwork --map ./example/Sim_fourway_1.map --txt ./example/Sim_fourway_1.txt --out sorghum.pre
 
 ```
 ```
