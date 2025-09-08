@@ -8,7 +8,8 @@ These instructions will get you a copy of the project up and running on your loc
 Please cite our manuscript if you use our software.
 
 ```
-Agrawal A, Chiu AM, Le M, Halperin E, Sankararaman S (2020) Scalable probabilistic PCA for large-scale genetic variation data. PLOS Genetics 16(5): e1008773. https://doi.org/10.1371/journal.pgen.1008773
+Tianneng Zhu (2025) QTLNetowrk-MP: An Epistatic Mapping Method of Complex Traits in Multiparent Advanced Generation Intercross (MAGIC) Populations
+.
 ```
 
 ## Built With
