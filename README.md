@@ -3,6 +3,13 @@
 ## Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
+## Citation
+
+Please cite our manuscript if you use our software.
+
+```
+Agrawal A, Chiu AM, Le M, Halperin E, Sankararaman S (2020) Scalable probabilistic PCA for large-scale genetic variation data. PLOS Genetics 16(5): e1008773. https://doi.org/10.1371/journal.pgen.1008773
+```
 
 ## Built With
 The following packages are required on a Linux machine to compile and use the software package.
@@ -26,11 +33,9 @@ cd build
 
 **Options for QTLNetwork-MP**
 
-* `--map` genetic map for QTL or genotype for QTS.
+* `--map` genetic map for QTL mapping.
 
-* `--txt` txt for QTL or phenotype for QTS.
-
-* `--QTX` 0 for QTL mapping or 1 for QTS (default, QTL).
+* `--txt` txt for QTL mapping.
 
 * `--threads` thread number (default, maximum).
 
@@ -46,9 +51,7 @@ cd build
 
 ```
 ./QTXNetwork --map ../example/SimF2.map --txt ../example/SimF2.txt --QTX 0 --out SimF2.pre
-./QTXNetwork --map ../example/sorghum.map --txt ../example/sorghum.txt --QTX 0 --out sorghum.pre
-./QTXNetwork --map ../example/SimF2_600.Gen --txt ../example/SimF2_600.Phe --QTX 1 --out SimF2_600.pre
-./QTXNetwork --map ../example/0pca.Girth18.gen --txt ../example/0pca.Girth18.phe --QTX 1 --out 0pca.Girth18.pre
+./QTXNetwork --map ../example/Sim_fourway_1.map --txt ../example/Sim_fourway_1.txt --QTX 0 --out sorghum.pre
 
 ```
 ```
